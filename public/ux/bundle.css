@@ -1,0 +1,41 @@
+.container.svelte-bns2xd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+
+.logo.svelte-bns2xd {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px
+}
+
+.black.svelte-bns2xd {
+    color: black;
+    margin: 0;
+    text-align: center
+}
+
+.redirect.svelte-bns2xd {
+    background: black;
+    width: 400px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    transform: opacity 0.3s ease-in, box-shadow 0.3s ease-in
+}
+
+.redirect.svelte-bns2xd:hover {
+    opacity: 0.8;
+    box-shadow: 1px 1px 1px 1px grey
+}

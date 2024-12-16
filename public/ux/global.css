@@ -1,0 +1,12 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+
+body {
+	font-family: sans-serif, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue";
+	min-height: 100vh;
+}
+
